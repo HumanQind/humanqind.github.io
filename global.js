@@ -1,10 +1,11 @@
 
-let consentText = "The following questionnaire will collect data of the students that include their age, gender and home address. No names or any other data to reveal the identity of the student will be collected. This data collected will be securely stored by HumanQind Design Foundation and will only be used for research and data analysis as part of the Safe School Zone Project. This data will not be used for any commercial purposes. Please give your consent for the collection of the data.";
+
 
 let davvk = "https://api.sheety.co/052409451a655b617d5a507bcc00ec4a/davVk/";
 let skv = "https://api.sheety.co/052409451a655b617d5a507bcc00ec4a/skvZeenat/";
 let baseUrl = "https://api.sheety.co/052409451a655b617d5a507bcc00ec4a/";
 
+let consentText = "HumanQind आपका स्वागत करती है। अगले प्रश्न छात्रों के माता पिता या अभिभावकों के लिए हैं ये प्रश्नावली छात्रों के बारे में कुछ डाटा एकत्रित करेगी जैसे की, उनकी उम्र, लिंग और घर का पता। हम छात्रों का नाम या फिर ऐसी कोई जानकारी जिस से उनकी पहचान का पता लग पाए नहीं एकत्रित करती है। ये सारा डाटा HumanQind Design Foundation एकत्रित कर सुरक्षरित रूप से स्टोर करती है, और इसका इस्तेमाल सिर्फ &quot;सेफ स्कूल जोन&quot; प्रोजेक्ट के शोध और डाटा एनालिसिस के लिए किया जायेग। इस डेटा का उपयोग किसी व्यावसायिक उद्देश्य के लिए नहीं किया जाएगा । आपसे अनुरोध है की आप ये डाटा संगृहीत करने की अपनी तरफ से अनुमति दे। <br><br>मैं (छात्र का माता या पिता या अभिभावक) इस डाटा को एकत्रित करने की सहमति देता हूँ । <br> <br> The following questionnaire will collect data of the students that include their age, gender and home address. No names or any other data to reveal the identity of the student will be collected. This data collected will be securely stored by HumanQind Design Foundation and will only be used for research and data analysis as part of the Safe School Zone Project. This data will not be used for any commercial purposes. Please give your consent for the collection of the data.";
 
 //FORMS BELOW
 let prefill = "?usp=pp_url&entry.27314893=";
