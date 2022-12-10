@@ -8,15 +8,17 @@ let os;
 
 
 window.onload = function loade() {
-document.getElementById('consent-text').innerHTML = consentText;
-dir = window.location.pathname.split('/');
-schoolName = dir[1];
-console.log(schoolName);
-let url = baseUrl + schoolName + '/students';
-console.log(url);
+    document.getElementById('consent-text').innerHTML = consentText;
+    document.getElementById('but-consent-yes').innerHTML = "हम (छात्र के माता या पिता या अभिभावक) सहमति देते हैं <br>We (Student's parents or guardians) give consent";
+    document.getElementById('but-consent-no').innerHTML = "हम सहमति नहीं देते हैं <br> Deny consent";
+    dir = window.location.pathname.split('/');
+    schoolName = dir[1];
+    console.log(schoolName);
+    let url = baseUrl + schoolName + '/students';
+    console.log(url);
 };
 
-function noConsent(){
+function noConsent() {
     hideAll();
     document.getElementById('screen0-no').style.display = "block";
 }
@@ -27,7 +29,7 @@ function loadScreen2() {
     // studentName = document.getElementById('studentName').value;
     admissionNumber = document.getElementById('admissionNumber').value;
     // if (studentName === '') {
-        // document.getElementById('studentName').placeholder = "This field is required";
+    // document.getElementById('studentName').placeholder = "This field is required";
     // }
     if (admissionNumber === '') {
         document.getElementById('admissionNumber').placeholder = "This field is required";
@@ -139,7 +141,7 @@ function loadScreen10() {
 }
 
 function prefilledform() {
-    let prefilledUrl = studForms[schoolName]+prefill+ admissionNumber;
+    let prefilledUrl = studForms[schoolName] + prefill + admissionNumber;
     window.open(prefilledUrl);
 }
 
