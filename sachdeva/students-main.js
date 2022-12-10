@@ -21,21 +21,6 @@ function noConsent(){
     document.getElementById('screen0-no').style.display = "block";
 }
 
-function loadScreenPin() {
-    hideAll();
-    document.getElementById('screen0-pin').style.display = "block";
-}
-
-function funtion() {
-    if (document.getElementById('pin').value == "0088") {
-        hideAll();
-        loadScreen1();
-    }
-    if (document.getElementById('pin').value != "0088") {
-        document.getElementById('pin-error').innerHTML = "Please enter correct school PIN";
-    }
-}
-
 function loadScreen2() {
     getOS();
     document.getElementById('screen3').style.display = "none";
@@ -168,7 +153,6 @@ function prefilledform() {
 function hideAll() {
 
     document.getElementById('screen0-1').style.display = "none";
-    document.getElementById('screen0-pin').style.display = "none";
     document.getElementById('screen1').style.display = "none";
     document.getElementById('screen2').style.display = "none";
     document.getElementById('screen3').style.display = "none";

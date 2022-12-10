@@ -78,23 +78,6 @@ p{
     font-size: 15px;
 }
 
-#pin{
-    display: block;
-    margin: auto;
-    font-size: 24px;
-    width: 200px;
-}
-
-#pin-error{
-    display: block;
-    text-align: center;
-    margin: auto;
-}
-
-#screen0-pin{
-    display: none;
-}
-
 #screen1 {
     z-index: 10;
     display: none;
